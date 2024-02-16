@@ -18,7 +18,7 @@ read -p "Sandbox name: (no need to write 'sandbox' in front)" sandbox_name
 
 read -p "Dataset name: ('TP_dbt__' in front)" dataset_name
 
-additional_text="
+profile="
 jaffle_shop:
   outputs:
     dev:
@@ -34,6 +34,6 @@ jaffle_shop:
   target: dev
 "
 
-echo "$additional_text" >> ~/.dbt/profiles.yml
+echo "$profile" >> ~/.dbt/profiles.yml
 
 echo -e "\n### SETUP COMPLETE ###\n"
