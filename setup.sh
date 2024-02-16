@@ -14,9 +14,9 @@ git clone https://github.com/dbt-labs/jaffle_shop.git
 
 echo -e "\n### SETTING UP USER PROFILE ###\n"
 
-read -p "Sandbox name: (no need to write 'sandbox' in front)" sandbox_name
+read -p "Sandbox name (no need to write 'sandbox' in front): " sandbox_name
 
-read -p "Dataset name: ('TP_dbt__' in front)" dataset_name
+read -p "Dataset name ('TP_dbt__' in front): " dataset_name
 
 profile="
 jaffle_shop:
