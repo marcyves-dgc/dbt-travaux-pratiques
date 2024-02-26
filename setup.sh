@@ -1,4 +1,6 @@
 #!/bin/bash
+python3 -m venv dbt-env
+source dbt-env/bin/activate
 
 # Install dbt
 echo -e "\n### INSTALLING dbt ###\n"
