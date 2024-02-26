@@ -2,11 +2,11 @@
 
 # Install dbt
 echo -e "\n### INSTALLING dbt ###\n"
-pip install dbt
+python3 -m pip install dbt
 
 
 echo -e "\n ### INSTALLING DBT-BIG QUERY CONNECTION ###\n"
-pip install dbt-bigquery
+python3 -m pip install dbt-bigquery
 
 # Create a new project
 echo -e "\n### CLONING dbt PROJET PROJECT ###\n"
