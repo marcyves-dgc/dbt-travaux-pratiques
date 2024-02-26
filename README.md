@@ -1,3 +1,3 @@
-git clone git@github.com:vvaneeclo/dbt-travaux-pratiques.git
+git clone <your_git_url>
 
 Puis: chmod +x setup.sh && ./setup.sh
