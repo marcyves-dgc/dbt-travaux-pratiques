@@ -15,6 +15,6 @@ git clone https://github.com/dbt-labs/jaffle_shop.git
 
 echo -e "\n### ACTIVATING VIRTUAL ENV ###\n"
 
-source dbt-env/bin/activate
+source "dbt-env/bin/activate"
 
 echo -e "\n### SETUP COMPLETE ###\n"
